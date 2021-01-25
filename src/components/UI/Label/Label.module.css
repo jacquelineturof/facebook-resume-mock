@@ -1,0 +1,11 @@
+.Label {
+    letter-spacing: .5rem;
+}
+
+.Rotate {
+    transform: rotate(-90deg);
+}
+
+.LabelSub {
+    color: #a9a9a9;
+}

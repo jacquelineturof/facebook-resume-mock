@@ -1,0 +1,117 @@
+.LeftBar {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+    height: 100vh;
+}
+
+.Mobile {
+    display: none;
+    height: 100%;
+    
+    position: relative;
+}
+
+.Desktop {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.IconContainer,
+.GithubLinkContainerMobile {
+    height: 70px;
+    width: 100%;
+    background-color: #1C1C21;
+}
+
+.GithubLinkContainerMobile {
+    position: absolute;
+    bottom: 0;
+    background-color: transparent;
+    color: white;
+    background-color: #040128;
+    text-decoration: none;
+}
+
+.GithubLinkContainerDesktop {
+    width: 100%;
+    height: 10%;
+    text-decoration: none;
+    color: white;
+}
+
+.GithubLinkLabel {
+    margin-right: 1rem;
+    margin-top: .1rem;
+}
+
+.HeadingContainerDesktop {
+    height: 10vh;
+    width: 100%;
+}
+
+.HeadingContainerMobile {
+    height: 150px;
+    width: 100%;
+}
+
+.Heading {
+    letter-spacing: .5rem;
+}
+
+.Menu,
+.Apps {
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.MenuContainer,
+.AppsContainer {
+    height: 100%;
+    width: 90%;
+    margin-left: 1rem;
+}
+
+.LinkList,
+.AppList {
+    list-style: none;
+    padding: 0;
+}
+
+.Link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #a9a9a9;
+}
+
+.Link:hover {
+    color: white;
+}
+
+.LinkIcon {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.LinkLabel {
+    font-size: .9rem;
+    margin: 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .Desktop {
+        display: none;
+    }
+
+    .Mobile {
+        display: block;
+    }
+}
