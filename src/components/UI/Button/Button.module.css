@@ -1,0 +1,13 @@
+.Btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    font-size: 1.2rem;
+}
+
+.Accent {
+    background-color: #4838FA;
+    color: #ccc;
+}

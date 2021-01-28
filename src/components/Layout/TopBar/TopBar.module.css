@@ -2,5 +2,41 @@
     grid-column: 2 / 4;
     grid-row: 1 / 2;
 
-    border-left: .5px solid black;
+    border-left: .5px solid navy;
+
+    display: flex;
+}
+
+.SearchBar {
+    height: 100%;
+    width: 70%;
+
+    display: flex;
+    align-items: center;
+}
+
+.SearchBarInput {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.Controls {
+    height: 100%;
+    width: 30%;
+    
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+
+.DropDown {
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
 }

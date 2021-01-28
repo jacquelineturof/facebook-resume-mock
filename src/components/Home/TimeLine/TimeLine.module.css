@@ -16,6 +16,9 @@
 .PostForm {
     grid-row: 3 / 5;
     grid-column: 2 / 3;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .Content {
@@ -28,7 +31,6 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 
     padding: 0;
     margin: 0;
@@ -36,9 +38,82 @@
 }
 
 .InfoItem {
-    color: white;
+    width: 80%;
+    color: #ccc;
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
+}
+
+.InfoLink {
+    text-decoration: none;
+    color: #ccc;
+    margin-left: .5rem;
+}
+
+.InfoIcon {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.PostTypeList {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    height: 20%;
+    color: #ccc;
+    width: 50%;
+}
+
+.PostFormContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60%;
+}
+
+.PostInput {
+    width: 70%;
+    height: 90%;
+    background-color: transparent;
+    color: #ccc;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.PostBottom {
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PostTags {
+    width: 60%;
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.PostTag {
+    color:  #ccc;
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+}
+
+.PostTagIcon {
+    font-size: 1.2rem;
+    margin-right: .7rem;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 900px) {

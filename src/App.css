@@ -29,3 +29,31 @@ body {
 .bold {
   font-weight: 700;
 }
+
+.margin--left {
+  margin-left: 25px;
+}
+
+.margin--right {
+  margin-right: 25px;
+}
+
+.margin--top {
+  margin-top: 10%;
+}
+
+.margin--bottom {
+  margin-bottom: 10%;
+}
+
+.white {
+  color: #ccc;
+}
+
+.md-icon {
+  font-size: 1.2rem;
+}
+
+.hide {
+  display: none;
+}
