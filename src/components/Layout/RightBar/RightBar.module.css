@@ -3,6 +3,47 @@
     grid-row: 2 / 3;
 }
 
+.Container {
+    width: 90%;
+    height: 100%;
+}
+
+.View {
+    height: 90%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.NameInput {
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    width: 90%;
+    background-color: transparent;
+    border-bottom: 2px solid #4838FA;
+    color: #4838FA;
+    font-size: 1.2rem;
+}
+
+.MessageContainer {
+    margin-top: auto;
+    margin-bottom: 2rem;
+    border-radius: 100px;
+    height: 7vh;
+    width: 100%;
+    background-color: white;
+}
+
+.InputMessage {
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    height: 90%;
+    width: 90%;
+    padding: 0 1rem;
+}
+
 @media only screen and (max-width: 1200px) {
     .RightBar {
         display: none;

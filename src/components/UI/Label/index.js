@@ -6,13 +6,14 @@ import classes from './Label.module.css'
     rotate: boolean
     type: string, main || sub
 */
-const Label = ({ children, rotate, type, isUppercase }) => {
+const Label = ({ children, rotate, type, isUppercase, center }) => {
     const labelClasses = type === 'main' 
         ? [ classes.Label ]
         : [ classes.LabelSub ]
     
     if (rotate) labelClasses.push(classes.Rotate)
     if (isUppercase) labelClasses.push('uppercase')
+    if (center) labelClasses.push(classes.Center)
 
     let label = type === 'main' 
         ? (
